@@ -1,0 +1,75 @@
+about:
+  description: Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.
+  license: GPL-3.0
+  homepage: https://hledger.org
+  head: 64867d2
+  archived: false
+  latestVersion: 1.52.3
+  collectedAt: 2026-09-04T05:00:15Z
+timeline:
+  created: 2013-04-08
+  lastCommit: 2026-09-03
+  lastRelease: 2026-08-27
+popularity:
+  star: 4691
+  watcher: 50
+  fork: 413
+  release: 60
+  contributor: 180
+  pullRequest: 233
+  issue: 1678
+language:
+  Haskell: 2496243
+  Roff: 591753
+  JavaScript: 416148
+  Shell: 127655
+  Just: 90109
+  Python: 32635
+  Cap'n Proto: 12835
+  CSS: 5377
+  Awk: 4839
+  Makefile: 4159
+  M4: 4030
+  Dockerfile: 3726
+  Procfile: 2900
+  Lua: 2794
+  Emacs Lisp: 1832
+  JASS: 1679
+  HTML: 1479
+  Jasmin: 1144
+  Objective-J: 541
+  CMake: 34
+totalLine: 3801912
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 2
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-06
+    release: 3
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last180d:
+    since: 2026-03-08
+    release: 7
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last360d:
+    since: 2025-09-09
+    release: 16
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
