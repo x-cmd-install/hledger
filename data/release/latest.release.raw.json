@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 48712153,
       "digest": "sha256:d14a4fc2ac804b556f481b64e8c54efa380db1ac85b3723c9df7b1eeade74b3a",
-      "download_count": 997,
+      "download_count": 1017,
       "created_at": "2026-08-27T11:20:24Z",
       "updated_at": "2026-08-27T11:20:29Z",
       "browser_download_url": "https://github.com/plaintextaccounting/hledger/releases/download/1.52.3/hledger-linux-x64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 53162732,
       "digest": "sha256:430ef7b9684c9eadde274267fa4fc7c0e1c4b59f066d3a3f93cda04fce930d45",
-      "download_count": 53,
+      "download_count": 59,
       "created_at": "2026-08-27T11:20:30Z",
       "updated_at": "2026-08-27T11:20:36Z",
       "browser_download_url": "https://github.com/plaintextaccounting/hledger/releases/download/1.52.3/hledger-mac-arm64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 17940270,
       "digest": "sha256:c9b7d376eb0068388c3c810ad3465e08b76057c1a3712d7283650fa712b9aa62",
-      "download_count": 15,
+      "download_count": 18,
       "created_at": "2026-08-27T11:20:36Z",
       "updated_at": "2026-08-27T11:20:39Z",
       "browser_download_url": "https://github.com/plaintextaccounting/hledger/releases/download/1.52.3/hledger-mac-x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 52003118,
       "digest": "sha256:ae16e1f6a311f7cae6e09d4ef1d0fc0c214fb4041d9100d0ac29bade1219fc09",
-      "download_count": 418,
+      "download_count": 427,
       "created_at": "2026-08-27T11:20:39Z",
       "updated_at": "2026-08-27T11:20:45Z",
       "browser_download_url": "https://github.com/plaintextaccounting/hledger/releases/download/1.52.3/hledger-windows-x64.zip"
