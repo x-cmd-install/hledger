@@ -7,7 +7,7 @@ about:
   latestVersion: "1.52.3"
   latestRelease: "1.52.3"
   latestPrerelease: "1.99.3"
-  collectedAt: 2026-09-09T05:45:12Z
+  collectedAt: 2026-09-09T20:14:08Z
 timeline:
   created: 2013-04-08
   lastCommit: 2026-09-09
@@ -102,7 +102,7 @@ total:
   commit: 15821
 ---
 path: /home/runner/.x-repo/github.com/simonmichael/hledger
-collectedAt: 2026-09-09T05:45:32Z
+collectedAt: 2026-09-09T20:14:27Z
 loc:
   Haskell:
     code: 34213
