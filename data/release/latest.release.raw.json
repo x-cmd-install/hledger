@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 48712153,
       "digest": "sha256:d14a4fc2ac804b556f481b64e8c54efa380db1ac85b3723c9df7b1eeade74b3a",
-      "download_count": 1163,
+      "download_count": 1174,
       "created_at": "2026-08-27T11:20:24Z",
       "updated_at": "2026-08-27T11:20:29Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.3/hledger-linux-x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 52003118,
       "digest": "sha256:ae16e1f6a311f7cae6e09d4ef1d0fc0c214fb4041d9100d0ac29bade1219fc09",
-      "download_count": 474,
+      "download_count": 476,
       "created_at": "2026-08-27T11:20:39Z",
       "updated_at": "2026-08-27T11:20:45Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.3/hledger-windows-x64.zip"
