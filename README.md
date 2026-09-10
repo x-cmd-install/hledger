@@ -14,12 +14,12 @@ x install hledger
 
 ## Code insight
 
-Total: **60,198** lines of code across **253** files in the top 5 languages.
+Total: **60,217** lines of code across **253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 34,321 | 16,822 | 5,887 | 182 |
-| JavaScript | 10,082 | 2,299 | 2,386 | 20 |
+| Haskell | 34,318 | 16,823 | 5,887 | 182 |
+| JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,879 | 103 | 70 | 6 |
 | Bash | 2,909 | 468 | 297 | 27 |
 | Yaml | 1,390 | 403 | 171 | 18 |
@@ -52,7 +52,7 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 60 · **Merged PRs**: 771 · **Open PRs**: 5 · **Closed issues**: 1363 · **Open issues**: 321 · **Commits**: 15843
+- **Releases**: 60 · **Merged PRs**: 771 · **Open PRs**: 4 · **Closed issues**: 1363 · **Open issues**: 321 · **Commits**: 15844
 
 ## Recent activity
 
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:32:44Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:23:52Z._

@@ -12,14 +12,14 @@ Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfa
 x install hledger
 ```
 
-## 代码规模
+## 代码洞察
 
-合计: **60,198** 行代码（覆盖前 5 种语言、共 **253** 个文件）。
+合计: **60,217** 行代码（覆盖前 5 种语言、共 **253** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 34,321 | 16,822 | 5,887 | 182 |
-| JavaScript | 10,082 | 2,299 | 2,386 | 20 |
+| Haskell | 34,318 | 16,823 | 5,887 | 182 |
+| JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,879 | 103 | 70 | 6 |
 | Bash | 2,909 | 468 | 297 | 27 |
 | Yaml | 1,390 | 403 | 171 | 18 |
@@ -52,7 +52,7 @@ x install hledger
 
 ## 累计统计
 
-- **发布数**: 60 · **已合并 PR**: 771 · **开放 PR**: 5 · **已关闭 issue**: 1363 · **开放 issue**: 321 · **提交数**: 15843
+- **发布数**: 60 · **已合并 PR**: 771 · **开放 PR**: 4 · **已关闭 issue**: 1363 · **开放 issue**: 321 · **提交数**: 15844
 
 ## 最近活动
 
@@ -102,4 +102,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T20:32:46Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:23:53Z._
