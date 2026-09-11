@@ -14,11 +14,11 @@ x install hledger
 
 ## Code insight
 
-Total: **60,377** lines of code across **253** files in the top 5 languages.
+Total: **60,381** lines of code across **253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 34,478 | 16,826 | 5,896 | 182 |
+| Haskell | 34,482 | 16,829 | 5,896 | 182 |
 | JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,879 | 103 | 70 | 6 |
 | Bash | 2,909 | 468 | 297 | 27 |
@@ -48,11 +48,11 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,704 · **Forks**: 413 · **Open issues**: 1,684 · **Contributors**: 181
+- **Stars**: 4,705 · **Forks**: 413 · **Open issues**: 1,684 · **Contributors**: 181
 
 ## Totals (cumulative)
 
-- **Releases**: 62 · **Merged PRs**: 772 · **Open PRs**: 3 · **Closed issues**: 1363 · **Open issues**: 321 · **Commits**: 15870
+- **Releases**: 62 · **Merged PRs**: 773 · **Open PRs**: 3 · **Closed issues**: 1363 · **Open issues**: 321 · **Commits**: 15874
 
 ## Recent activity
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **156** distros on [repology.org](https://repology.org/project/hledger). **2** are ✅ on the latest upstream release, **146** are ⚠️ on an older version.
+Reported by **156** distros on [repology.org](https://repology.org/project/hledger). **5** are ✅ on the latest upstream release, **143** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **156** distros on [repology.org](https://repology.org/project/hledg
 | Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
 | Arch | `1.52.1` | ⚠️ outdated |
-| Homebrew | `1.52.3` | ⚠️ outdated |
+| Homebrew | `1.52.4` | ✅ latest |
 | Fedora rawhide | `1.43.2` | ⚠️ outdated |
 | Nix unstable | `1.52` | ⚠️ outdated |
 | Void | `1.52.1` | ⚠️ outdated |
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:53:01Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:03:06Z._

@@ -14,11 +14,11 @@ x install hledger
 
 ## 代码洞察
 
-合计: **60,377** 行代码（覆盖前 5 种语言、共 **253** 个文件）。
+合计: **60,381** 行代码（覆盖前 5 种语言、共 **253** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 34,478 | 16,826 | 5,896 | 182 |
+| Haskell | 34,482 | 16,829 | 5,896 | 182 |
 | JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,879 | 103 | 70 | 6 |
 | Bash | 2,909 | 468 | 297 | 27 |
@@ -48,11 +48,11 @@ x install hledger
 
 ## 流行度
 
-- **Star**: 4,704 · **Fork**: 413 · **开放 issue**: 1,684 · **贡献者**: 181
+- **Star**: 4,705 · **Fork**: 413 · **开放 issue**: 1,684 · **贡献者**: 181
 
 ## 累计统计
 
-- **发布数**: 62 · **已合并 PR**: 772 · **开放 PR**: 3 · **已关闭 issue**: 1363 · **开放 issue**: 321 · **提交数**: 15870
+- **发布数**: 62 · **已合并 PR**: 773 · **开放 PR**: 3 · **已关闭 issue**: 1363 · **开放 issue**: 321 · **提交数**: 15874
 
 ## 最近活动
 
@@ -76,7 +76,7 @@ x install hledger
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/hledger) 上共有 **156** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**146** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/hledger) 上共有 **156** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**143** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -86,7 +86,7 @@ x install hledger
 | Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
 | Arch | `1.52.1` | ⚠️ outdated |
-| Homebrew | `1.52.3` | ⚠️ outdated |
+| Homebrew | `1.52.4` | ✅ latest |
 | Fedora rawhide | `1.43.2` | ⚠️ outdated |
 | Nix unstable | `1.52` | ⚠️ outdated |
 | Void | `1.52.1` | ⚠️ outdated |
@@ -102,4 +102,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T05:53:02Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T19:03:07Z._
