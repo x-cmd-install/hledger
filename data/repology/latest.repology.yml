@@ -1,3 +1,94 @@
+- repo: parabola
+  subrepo: extra
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.52.1
+  origversion: 1.52.1-58
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  licenses:
+    - GPL-3.0-or-later
+- repo: pardus_21
+  subrepo: main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
+  version: 1.18.1
+  origversion: 1.18.1-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - haskell
+- repo: parrot
+  subrepo: parrot/main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
+  version: 1.32.3
+  origversion: 1.32.3-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - haskell
+- repo: stackage_nighly
+  srcname: hledger
+  visiblename: hledger
+  version: 1.52.4
+  origversion: null
+  status: newest
+  summary: Command-line interface for the hledger accounting system
+- repo: nix_stable_24_11
+  srcname: haskellPackages.hledger
+  visiblename: hledger
+  version: 1.32.3
+  origversion: null
+  status: legacy
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - haskellPackages
+- repo: nix_stable_24_11
+  srcname: hledger
+  visiblename: hledger
+  version: 1.32.3
+  origversion: null
+  status: legacy
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_3_17
   subrepo: community
   srcname: hledger
@@ -89,31 +180,23 @@
     - contact@dhruvin.dev
   licenses:
     - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_24_11
-  srcname: hledger
-  visiblename: hledger
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
   version: 1.32.3
-  origversion: null
-  status: legacy
-  summary: Command-line interface for the hledger accounting system
+  origversion: 1.32.3-1
+  status: outdated
   maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-only
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - haskell
 - repo: alpine_3_18
   subrepo: community
   srcname: hledger
@@ -1184,18 +1267,6 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: hledger
-  visiblename: hledger
-  version: "1.40"
-  origversion: null
-  status: legacy
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-only
 - repo: fedora_41
   subrepo: release
   srcname: hledger
@@ -1247,6 +1318,28 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: hledger
+  visiblename: hledger
+  version: 1.50.3
+  origversion: null
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: termux
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.52.3
+  origversion: null
+  status: outdated
+  summary: Robust, friendly, fast plain text accounting software. (CLI only)
+  maintainers:
+    - erp.lsf@gmail.com
 - repo: fedora_44
   subrepo: release
   srcname: hledger
@@ -1277,11 +1370,11 @@
   categories:
     - Unspecified
 - repo: nix_stable_24_11
-  srcname: haskellPackages.hledger
+  srcname: haskellPackages.hledger_1_40
   visiblename: hledger
-  version: 1.32.3
+  version: "1.40"
   origversion: null
-  status: legacy
+  status: outdated
   summary: Command-line interface for the hledger accounting system
   maintainers:
     - mail@maralorn.de
@@ -1363,9 +1456,9 @@
 - repo: homebrew
   srcname: hledger
   visiblename: hledger
-  version: 1.52.3
+  version: 1.52.4
   origversion: null
-  status: outdated
+  status: newest
   summary: Easy plain text accounting with command-line, terminal and web UIs
 - repo: homebrew
   srcname: hledger
@@ -1440,6 +1533,18 @@
   licenses:
     - GPL-3.0-or-later
 - repo: nix_stable_24_05
+  srcname: hledger
+  visiblename: hledger
+  version: 1.32.3
+  origversion: null
+  status: legacy
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_24_05
   srcname: haskellPackages.hledger
   visiblename: hledger
   version: 1.32.3
@@ -1454,35 +1559,9 @@
   categories:
     - haskellPackages
 - repo: nix_stable_24_05
-  srcname: hledger
-  visiblename: hledger
-  version: 1.32.3
-  origversion: null
-  status: legacy
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_24_05
   srcname: haskellPackages.hledger_1_33_1
   visiblename: hledger
   version: 1.33.1
-  origversion: null
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - haskellPackages
-- repo: nix_stable_24_11
-  srcname: haskellPackages.hledger_1_40
-  visiblename: hledger
-  version: "1.40"
   origversion: null
   status: outdated
   summary: Command-line interface for the hledger accounting system
@@ -1507,6 +1586,18 @@
     - GPL-3.0-only
   categories:
     - haskellPackages
+- repo: nix_stable_25_05
+  srcname: hledger
+  visiblename: hledger
+  version: "1.40"
+  origversion: null
+  status: legacy
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-only
 - repo: nix_stable_25_05
   srcname: haskellPackages.hledger_1_42_1
   visiblename: hledger
@@ -1535,30 +1626,13 @@
     - GPL-3.0-or-later
   categories:
     - haskellPackages
-- repo: nix_stable_25_11
+- repo: stackage_lts
   srcname: hledger
   visiblename: hledger
-  version: 1.50.3
+  version: 1.43.2
   origversion: null
   status: outdated
   summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_26_05
-  srcname: hledger
-  visiblename: hledger
-  version: "1.52"
-  origversion: null
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_26_05
   srcname: haskellPackages.hledger
   visiblename: hledger
@@ -1573,6 +1647,18 @@
     - GPL-3.0-or-later
   categories:
     - haskellPackages
+- repo: nix_stable_26_05
+  srcname: hledger
+  visiblename: hledger
+  version: "1.52"
+  origversion: null
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-or-later
 - repo: nix_unstable
   srcname: hledger
   visiblename: hledger
@@ -1655,68 +1741,6 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.52.1
-  origversion: 1.52.1-58
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  licenses:
-    - GPL-3.0-or-later
-- repo: pardus_21
-  subrepo: main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: 1.18.1
-  origversion: 1.18.1-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-  categories:
-    - haskell
-- repo: parrot
-  subrepo: parrot/main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: 1.32.3
-  origversion: 1.32.3-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-  categories:
-    - haskell
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: 1.32.3
-  origversion: 1.32.3-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-  categories:
-    - haskell
 - repo: pkgsrc_2026_1
   srcname: finance/hledger
   binname: hledger
@@ -1864,30 +1888,6 @@
   status: newest
   licenses:
     - GPL-3.0-only
-- repo: stackage_lts
-  srcname: hledger
-  visiblename: hledger
-  version: 1.43.2
-  origversion: null
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-- repo: stackage_nighly
-  srcname: hledger
-  visiblename: hledger
-  version: 1.52.3
-  origversion: null
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-- repo: termux
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.52.3
-  origversion: null
-  status: outdated
-  summary: Robust, friendly, fast plain text accounting software. (CLI only)
-  maintainers:
-    - erp.lsf@gmail.com
 - repo: trisquel_10_0
   subrepo: nabia/main
   srcname: haskell-hledger
@@ -2134,9 +2134,9 @@
 - repo: wikidata
   srcname: Q115648408
   visiblename: hledger
-  version: 1.52.3
+  version: 1.52.4
   origversion: null
-  status: outdated
+  status: newest
   summary: Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces
   licenses:
     - GNU General Public License, version 3.0

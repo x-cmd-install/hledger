@@ -2,12 +2,12 @@ about:
   description: "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces."
   license: GPL-3.0
   homepage: https://hledger.org
-  head: 46b588c
+  head: 21b4340
   archived: false
   latestVersion: "1.99.4"
   latestRelease: "1.52.4"
   latestPrerelease: "1.99.4"
-  collectedAt: 2026-09-11T05:52:26Z
+  collectedAt: 2026-09-11T19:02:15Z
 timeline:
   created: 2013-04-08
   lastCommit: 2026-09-11
@@ -15,19 +15,19 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 2026-09-11
 popularity:
-  star: 4704
+  star: 4705
   watcher: 49
   fork: 413
   release: 62
   contributor: 181
-  pullRequest: 998
+  pullRequest: 1001
   issue: 1684
 language:
-  Haskell: 2557113
+  Haskell: 2557285
   Roff: 607645
   JavaScript: 213284
   Shell: 130365
-  Just: 93667
+  Just: 93656
   Python: 37191
   Cap'n Proto: 12826
   CSS: 10005
@@ -43,7 +43,7 @@ language:
   Jasmin: 1135
   Objective-J: 541
   CMake: 34
-totalBytes: 3691253
+totalBytes: 3691414
 recent:
   last30d:
     since: 2026-08-12
@@ -95,18 +95,18 @@ recent:
     commit: 0
 total:
   release: 62
-  mergedPR: 772
+  mergedPR: 773
   openPR: 3
   closedIssue: 1363
   openIssue: 321
-  commit: 15870
+  commit: 15874
 ---
 path: /home/runner/.x-repo/github.com/simonmichael/hledger
-collectedAt: 2026-09-11T05:52:51Z
+collectedAt: 2026-09-11T19:02:45Z
 loc:
   Haskell:
-    code: 34478
-    comments: 16826
+    code: 34482
+    comments: 16829
     blanks: 5896
     files: 182
   JavaScript:
@@ -237,7 +237,7 @@ loc:
   Markdown:
     code: 0
     comments: 36544
-    blanks: 13733
+    blanks: 13729
     files: 118
   Text:
     code: 0
@@ -245,9 +245,9 @@ loc:
     blanks: 4061
     files: 43
 total:
-  code: 60543
-  comments: 70702
-  blanks: 27089
+  code: 60547
+  comments: 70705
+  blanks: 27085
   files: 506
 ---
 date: "2026-09-07"
