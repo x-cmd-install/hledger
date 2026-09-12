@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 48559156,
       "digest": "sha256:f76a2e4088e162b7658e43077502569d5a6fdacd219b19bfb9aab6588b69643a",
-      "download_count": 38,
+      "download_count": 49,
       "created_at": "2026-09-10T23:49:18Z",
       "updated_at": "2026-09-10T23:49:21Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.4/hledger-linux-x64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 52822969,
       "digest": "sha256:c90a0fe4537439e958ce530f7175d937749f5f126759c94c1212774abe9eb971",
-      "download_count": 12,
+      "download_count": 14,
       "created_at": "2026-09-10T23:49:18Z",
       "updated_at": "2026-09-10T23:49:21Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.4/hledger-mac-arm64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 17827639,
       "digest": "sha256:1e4d4114ca065f6f0f6e45453ec30571eb00989bf34d439c80042368ae22c49c",
-      "download_count": 8,
+      "download_count": 9,
       "created_at": "2026-09-10T23:49:18Z",
       "updated_at": "2026-09-10T23:49:19Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.4/hledger-mac-x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 51750515,
       "digest": "sha256:2921b1c61b4d8ff32622b5eff01de4d5e7e166cb456e89002d42640f474b6fde",
-      "download_count": 115,
+      "download_count": 137,
       "created_at": "2026-09-10T23:49:18Z",
       "updated_at": "2026-09-10T23:49:21Z",
       "browser_download_url": "https://github.com/hledgerorg/hledger/releases/download/1.52.4/hledger-windows-x64.zip"
