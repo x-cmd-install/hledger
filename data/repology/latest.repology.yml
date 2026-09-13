@@ -1,948 +1,975 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
   srcname: hledger
   binname: hledger
   visiblename: hledger
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: deepin_unstable
+  subrepo: main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
+  version: "1.10"
+  origversion: 1.10-3
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: 1.29.2
+  origversion: 1.29.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
+  version: 1.18.1
+  origversion: 1.18.1-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - haskell
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: 1.32.2
+  origversion: 1.32.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_20
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: "1.33"
+  origversion: 1.33-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhruvin.dev
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_21
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: "1.40"
+  origversion: 1.40-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_22
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: 1.42.2
+  origversion: 1.42.2-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - contact@dhru.vin
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_23
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: 1.50.1
+  origversion: 1.50.1-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_24
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-openrc
+  visiblename: hledger-web-openrc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (OpenRC init scripts)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-bash-completion
+  visiblename: hledger-bash-completion
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Bash completions for hledger
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-doc
+  visiblename: hledger-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Command-line interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui
+  visiblename: hledger-ui
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-ui-doc
+  visiblename: hledger-ui-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Curses-style terminal interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web
+  visiblename: hledger-web
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_edge
+  subrepo: community
+  srcname: hledger
+  binname: hledger-web-doc
+  visiblename: hledger-web-doc
+  version: "1.52"
+  origversion: 1.52-r0
+  status: outdated
+  summary: Web interface for the hledger accounting system (documentation)
+  maintainers:
+    - badfunkstripe@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
   version: 1.52.1
-  origversion: 1.52.1-58
+  origversion: 1.52.1-1
   status: outdated
-  summary: Command-line interface for the hledger accounting system
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.52.1
-  origversion: 1.52.1-57
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: 1.29.2
-  origversion: 1.29.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: 1.32.2
-  origversion: 1.32.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: "1.33"
-  origversion: 1.33-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhruvin.dev
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_21
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: "1.40"
-  origversion: 1.40-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_22
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: 1.42.2
-  origversion: 1.42.2-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - contact@dhru.vin
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_23
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: 1.50.1
-  origversion: 1.50.1-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_24
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-openrc
-  visiblename: hledger-web-openrc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (OpenRC init scripts)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-bash-completion
-  visiblename: hledger-bash-completion
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Bash completions for hledger
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-doc
-  visiblename: hledger-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Command-line interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui
-  visiblename: hledger-ui
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-ui-doc
-  visiblename: hledger-ui-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Curses-style terminal interface for the hledger accounting system (documentation)
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web
-  visiblename: hledger-web
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system
-  maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_edge
-  subrepo: community
-  srcname: hledger
-  binname: hledger-web-doc
-  visiblename: hledger-web-doc
-  version: "1.52"
-  origversion: 1.52-r0
-  status: outdated
-  summary: Web interface for the hledger accounting system (documentation)
   maintainers:
-    - badfunkstripe@gmail.com
-  licenses:
-    - GPL-3.0-only
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - haskell
 - repo: alpine_edge
   subrepo: community
   srcname: hledger
@@ -1107,55 +1134,6 @@
     - clint@debian.org
   categories:
     - haskell
-- repo: deepin_unstable
-  subrepo: main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: "1.10"
-  origversion: 1.10-3
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: 1.18.1
-  origversion: 1.18.1-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-  categories:
-    - haskell
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: haskell-hledger
-  binnames:
-    - hledger
-    - libghc-hledger-dev
-    - libghc-hledger-prof
-    - libghc-hledger-doc
-  visiblename: haskell-hledger
-  version: 1.52.1
-  origversion: 1.52.1-1
-  status: outdated
-  maintainers:
-    - pkg-haskell-maintainers@lists.alioth.debian.org
-    - clint@debian.org
-  categories:
-    - haskell
 - repo: fedora_39
   subrepo: release
   srcname: hledger
@@ -1194,20 +1172,6 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: haskellPackages.hledger
-  visiblename: hledger
-  version: "1.40"
-  origversion: null
-  status: legacy
-  summary: Command-line interface for the hledger accounting system
-  maintainers:
-    - mail@maralorn.de
-    - sternenseemann@systemli.org
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - haskellPackages
 - repo: fedora_41
   subrepo: release
   srcname: hledger
@@ -1225,17 +1189,6 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: hledger
-  binname: hledger
-  visiblename: hledger
-  version: 1.52.1
-  origversion: 1.52.1-58
-  status: outdated
-  summary: Command-line interface for the hledger accounting system
-  licenses:
-    - GPL-3.0-or-later
 - repo: fedora_42
   subrepo: release
   srcname: hledger
@@ -1415,6 +1368,39 @@
     - GPL-3
   categories:
     - finance
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.52.1
+  origversion: 1.52.1-57
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.52.1
+  origversion: 1.52.1-58
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: hledger
+  binname: hledger
+  visiblename: hledger
+  version: 1.52.1
+  origversion: 1.52.1-58
+  status: outdated
+  summary: Command-line interface for the hledger accounting system
+  licenses:
+    - GPL-3.0-or-later
 - repo: nix_stable_24_05
   srcname: hledger
   visiblename: hledger
@@ -1487,6 +1473,20 @@
   version: "1.40"
   origversion: null
   status: outdated
+  summary: Command-line interface for the hledger accounting system
+  maintainers:
+    - mail@maralorn.de
+    - sternenseemann@systemli.org
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - haskellPackages
+- repo: nix_stable_25_05
+  srcname: haskellPackages.hledger
+  visiblename: hledger
+  version: "1.40"
+  origversion: null
+  status: legacy
   summary: Command-line interface for the hledger accounting system
   maintainers:
     - mail@maralorn.de
@@ -2086,6 +2086,23 @@
   visiblename: haskell-hledger
   version: 1.52.1
   origversion: 1.52.1-1
+  status: outdated
+  maintainers:
+    - pkg-haskell-maintainers@lists.alioth.debian.org
+    - clint@debian.org
+  categories:
+    - universe/haskell
+- repo: ubuntu_26_10_proposed
+  subrepo: stonking-proposed/universe
+  srcname: haskell-hledger
+  binnames:
+    - hledger
+    - libghc-hledger-dev
+    - libghc-hledger-prof
+    - libghc-hledger-doc
+  visiblename: haskell-hledger
+  version: 1.52.1
+  origversion: 1.52.1-1build1
   status: outdated
   maintainers:
     - pkg-haskell-maintainers@lists.alioth.debian.org
