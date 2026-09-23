@@ -4,7 +4,7 @@
 
 Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.
 
-[![x-cmd/install — hledger Code Quality Monitoring Repo Card](https://repo.x-cmd.io/hledger.svg)](https://x-cmd.com/install/hledger)
+[![x-cmd/install — hledger Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/hledger.svg)](https://x-cmd.com/install/hledger)
 
 ## Install
 
@@ -14,15 +14,15 @@ x install hledger
 
 ## Code insight
 
-Total: **61,666** lines of code across **256** files in the top 5 languages.
+Total: **61,648** lines of code across **253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 35,457 | 17,319 | 6,031 | 185 |
+| Haskell | 35,446 | 17,332 | 6,022 | 182 |
 | JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,891 | 120 | 74 | 6 |
 | Bash | 2,911 | 469 | 298 | 27 |
-| Yaml | 1,393 | 405 | 171 | 18 |
+| Yaml | 1,392 | 402 | 171 | 18 |
 
 ## OpenSSF Scorecard
 
@@ -30,7 +30,7 @@ Overall score: **4.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/16 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.4` (2026-09-10)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-23
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 4,714 · **Forks**: 415 · **Open issues**: 1,688 · **Contributors**: 181
+- **Stars**: 4,726 · **Forks**: 416 · **Open issues**: 1,688 · **Contributors**: 181
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 776 · **Open PRs**: 6 · **Closed issues**: 1365 · **Open issues**: 323 · **Commits**: 16038
+- **Releases**: 61 · **Merged PRs**: 779 · **Open PRs**: 5 · **Closed issues**: 1367 · **Open issues**: 321 · **Commits**: 16060
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-24 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-26 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-27 | 16 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-02 | 25 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-24 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-25 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-27 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-28 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-03 | 25 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:09:19Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:22:20Z._
