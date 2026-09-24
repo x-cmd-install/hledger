@@ -14,14 +14,14 @@ x install hledger
 
 ## Code insight
 
-Total: **61,648** lines of code across **253** files in the top 5 languages.
+Total: **61,718** lines of code across **253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 35,446 | 17,332 | 6,022 | 182 |
+| Haskell | 35,507 | 17,358 | 6,030 | 182 |
 | JavaScript | 10,104 | 2,306 | 2,386 | 20 |
 | Css | 6,891 | 120 | 74 | 6 |
-| Bash | 2,911 | 469 | 298 | 27 |
+| Bash | 2,917 | 468 | 295 | 27 |
 | Yaml | 1,392 | 402 | 171 | 18 |
 
 ## OpenSSF Scorecard
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,726 · **Forks**: 416 · **Open issues**: 1,688 · **Contributors**: 181
+- **Stars**: 4,731 · **Forks**: 416 · **Open issues**: 1,688 · **Contributors**: 181
 
 ## Totals (cumulative)
 
-- **Releases**: 61 · **Merged PRs**: 779 · **Open PRs**: 5 · **Closed issues**: 1367 · **Open issues**: 321 · **Commits**: 16060
+- **Releases**: 61 · **Merged PRs**: 779 · **Open PRs**: 3 · **Closed issues**: 1368 · **Open issues**: 320 · **Commits**: 16080
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-25 | 4 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-25 | 4 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-27 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-28 | 15 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-03 | 25 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-25 | 3 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-26 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-26 | 4 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-28 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-29 | 15 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-04 | 25 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:22:20Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:41:37Z._
