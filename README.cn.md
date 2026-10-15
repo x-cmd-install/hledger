@@ -14,11 +14,11 @@ x install hledger
 
 ## 代码洞察
 
-合计: **67,196** 行代码（覆盖前 5 种语言、共 **262** 个文件）。
+合计: **67,312** 行代码（覆盖前 5 种语言、共 **262** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 39,098 | 18,647 | 6,406 | 186 |
+| Haskell | 39,207 | 18,690 | 6,419 | 186 |
 | JavaScript | 10,484 | 2,403 | 2,420 | 23 |
 | Css | 7,108 | 166 | 94 | 6 |
 | Bash | 2,928 | 481 | 297 | 27 |
@@ -32,7 +32,7 @@ x install hledger
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **SAST** (0/10) — no SAST tool detected
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install hledger
 
 ## 流行度
 
-- **Star**: 4,765 · **Fork**: 415 · **开放 issue**: 1,694 · **贡献者**: 184
+- **Star**: 4,766 · **Fork**: 416 · **开放 issue**: 1,694 · **贡献者**: 185
 
 ## 累计统计
 
-- **发布数**: 63 · **已合并 PR**: 795 · **开放 PR**: 3 · **已关闭 issue**: 1386 · **开放 issue**: 308 · **提交数**: 16469
+- **发布数**: 63 · **已合并 PR**: 796 · **开放 PR**: 3 · **已关闭 issue**: 1386 · **开放 issue**: 308 · **提交数**: 16491
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-15 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-16 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-17 | 9 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-19 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-24 | 27 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-15 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-16 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-17 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-18 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-20 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-25 | 27 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -83,4 +83,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T05:44:31Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T05:28:16Z._
