@@ -14,14 +14,14 @@ x install hledger
 
 ## Code insight
 
-Total: **69,865** lines of code across **267** files in the top 5 languages.
+Total: **69,999** lines of code across **268** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 41,005 | 19,166 | 6,578 | 191 |
+| Haskell | 41,015 | 19,180 | 6,581 | 192 |
 | JavaScript | 10,484 | 2,403 | 2,420 | 23 |
 | Css | 7,108 | 166 | 94 | 6 |
-| Bash | 2,928 | 481 | 297 | 27 |
+| Bash | 2,934 | 482 | 297 | 27 |
 | Python | 1,821 | 149 | 275 | 20 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.5` (2026-09-10)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-20
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 4,772 · **Forks**: 417 · **Open issues**: 1,698 · **Contributors**: 185
+- **Stars**: 4,777 · **Forks**: 417 · **Open issues**: 1,699 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 63 · **Merged PRs**: 800 · **Open PRs**: 4 · **Closed issues**: 1390 · **Open issues**: 308 · **Commits**: 16588
+- **Releases**: 63 · **Merged PRs**: 801 · **Open PRs**: 5 · **Closed issues**: 1390 · **Open issues**: 309 · **Commits**: 16605
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-20 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-21 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-22 | 9 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-24 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-29 | 27 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-20 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-21 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-22 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-23 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-25 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-30 | 27 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:30:10Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:44:15Z._
