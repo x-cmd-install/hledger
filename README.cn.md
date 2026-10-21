@@ -14,11 +14,11 @@ x install hledger
 
 ## 代码洞察
 
-合计: **69,999** 行代码（覆盖前 5 种语言、共 **268** 个文件）。
+合计: **70,003** 行代码（覆盖前 5 种语言、共 **268** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 41,015 | 19,180 | 6,581 | 192 |
+| Haskell | 41,019 | 19,186 | 6,581 | 192 |
 | JavaScript | 10,484 | 2,403 | 2,420 | 23 |
 | Css | 7,108 | 166 | 94 | 6 |
 | Bash | 2,934 | 482 | 297 | 27 |
@@ -30,9 +30,9 @@ x install hledger
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install hledger
 
 ## 流行度
 
-- **Star**: 4,777 · **Fork**: 417 · **开放 issue**: 1,699 · **贡献者**: 185
+- **Star**: 4,779 · **Fork**: 418 · **开放 issue**: 1,699 · **贡献者**: 186
 
 ## 累计统计
 
-- **发布数**: 63 · **已合并 PR**: 801 · **开放 PR**: 5 · **已关闭 issue**: 1390 · **开放 issue**: 309 · **提交数**: 16605
+- **发布数**: 63 · **已合并 PR**: 802 · **开放 PR**: 5 · **已关闭 issue**: 1390 · **开放 issue**: 309 · **提交数**: 16608
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-21 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-22 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-23 | 9 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-25 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-10-30 | 27 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-21 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-22 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-23 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-24 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-26 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-10-31 | 27 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -83,4 +83,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T05:44:16Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:46:35Z._
