@@ -14,13 +14,13 @@ x install hledger
 
 ## Code insight
 
-Total: **72,561** lines of code across **270** files in the top 5 languages.
+Total: **72,940** lines of code across **270** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 42,901 | 19,846 | 6,729 | 193 |
-| JavaScript | 10,966 | 2,540 | 2,462 | 24 |
-| Css | 7,207 | 211 | 99 | 6 |
+| Haskell | 43,054 | 19,902 | 6,747 | 193 |
+| JavaScript | 11,131 | 2,578 | 2,475 | 24 |
+| Css | 7,258 | 230 | 103 | 6 |
 | Bash | 2,934 | 482 | 297 | 27 |
 | Python | 1,821 | 149 | 275 | 20 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.5` (2026-09-10)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-23
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 4,780 · **Forks**: 419 · **Open issues**: 1,702 · **Contributors**: 186
+- **Stars**: 4,781 · **Forks**: 418 · **Open issues**: 1,702 · **Contributors**: 186
 
 ## Totals (cumulative)
 
-- **Releases**: 63 · **Merged PRs**: 805 · **Open PRs**: 1 · **Closed issues**: 1392 · **Open issues**: 310 · **Commits**: 16672
+- **Releases**: 63 · **Merged PRs**: 810 · **Open PRs**: 2 · **Closed issues**: 1393 · **Open issues**: 309 · **Commits**: 16698
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 6 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 9 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-27 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-01 | 27 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-23 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 6 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-28 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-02 | 27 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -74,6 +74,25 @@ Lowest-scoring checks:
 | [hledger-mac-x64.tar.gz](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-mac-x64.tar.gz) | 17.0 MiB | `native/unknown` |
 | [hledger-windows-x64.zip](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-windows-x64.zip) | 49.4 MiB | `native/win/x64` |
 
+## Distribution status
+
+Reported by **154** distros on [repology.org](https://repology.org/project/hledger). **25** are ✅ on the latest upstream release, **121** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.52.1` | ⚠️ outdated |
+| Debian 14 | `1.52.1` | ⚠️ outdated |
+| Debian 13 | `1.32.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
+| Arch | `1.52.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `1.43.2` | ⚠️ outdated |
+| Nix unstable | `1.52` | ⚠️ outdated |
+| Void | `1.52.1` | ⚠️ outdated |
+| Alpine edge | `1.52.4` | ✅ latest |
+| openSUSE Tumbleweed | `1.52.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `hledger` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:35:51Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:40:09Z._
