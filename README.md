@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,814 · **Forks**: 426 · **Open issues**: 1,721 · **Contributors**: 185
+- **Stars**: 4,814 · **Forks**: 424 · **Open issues**: 1,721 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 830 · **Open PRs**: 2 · **Closed issues**: 1408 · **Open issues**: 313 · **Commits**: 16913
+- **Releases**: 64 · **Merged PRs**: 830 · **Open PRs**: 3 · **Closed issues**: 1408 · **Open issues**: 313 · **Commits**: 16913
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-08 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-09 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-11 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-12 | 18 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-17 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-09 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-09 | 5 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-10 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-12 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-13 | 18 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-18 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:59:04Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:51:51Z._
