@@ -14,11 +14,11 @@ x install hledger
 
 ## Code insight
 
-Total: **65,636** lines of code across **261** files in the top 5 languages.
+Total: **65,820** lines of code across **262** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 44,541 | 20,443 | 6,871 | 194 |
+| Haskell | 44,722 | 20,493 | 6,873 | 195 |
 | Css | 7,377 | 247 | 103 | 6 |
 | Bash | 2,934 | 482 | 297 | 27 |
 | JavaScript | 2,067 | 496 | 237 | 14 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.6` (2026-09-10)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-10
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 4,814 · **Forks**: 424 · **Open issues**: 1,721 · **Contributors**: 185
+- **Stars**: 4,813 · **Forks**: 424 · **Open issues**: 1,721 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 830 · **Open PRs**: 3 · **Closed issues**: 1408 · **Open issues**: 313 · **Commits**: 16913
+- **Releases**: 64 · **Merged PRs**: 833 · **Open PRs**: 2 · **Closed issues**: 1410 · **Open issues**: 311 · **Commits**: 16922
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 5 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-12 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-13 | 18 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-18 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-11 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-11 | 4 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-12 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-14 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-15 | 18 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-20 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -76,7 +76,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **155** distros on [repology.org](https://repology.org/project/hledger). **29** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+Reported by **155** distros on [repology.org](https://repology.org/project/hledger). **30** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **155** distros on [repology.org](https://repology.org/project/hledg
 | Nix unstable | `1.52` | ⚠️ outdated |
 | Void | `1.52.4` | ✅ latest |
 | Alpine edge | `1.52.4` | ✅ latest |
-| openSUSE Tumbleweed | `1.52.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.52.4` | ✅ latest |
 
 ## Improve this data
 
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:51:51Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:27:39Z._
