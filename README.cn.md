@@ -48,7 +48,7 @@ x install hledger
 
 ## 流行度
 
-- **Star**: 4,817 · **Fork**: 424 · **开放 issue**: 1,721 · **贡献者**: 185
+- **Star**: 4,816 · **Fork**: 424 · **开放 issue**: 1,721 · **贡献者**: 185
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install hledger
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-12 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-13 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-15 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-16 | 18 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-21 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-13 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-13 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-14 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-16 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-17 | 18 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-22 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -86,7 +86,7 @@ x install hledger
 | Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
 | Arch | `1.52.4` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.52.4` | ✅ latest |
 | Fedora rawhide | `1.43.2` | ⚠️ outdated |
 | Nix unstable | `1.52` | ⚠️ outdated |
 | Void | `1.52.4` | ✅ latest |
@@ -102,4 +102,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261111.yml` · 2026-11-11T07:33:29Z._
+_数据快照: `data/card/261112.yml` · 2026-11-12T08:35:45Z._

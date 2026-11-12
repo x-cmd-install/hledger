@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,817 · **Forks**: 424 · **Open issues**: 1,721 · **Contributors**: 185
+- **Stars**: 4,816 · **Forks**: 424 · **Open issues**: 1,721 · **Contributors**: 185
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-12 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-13 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-15 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-16 | 18 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-21 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-13 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-13 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-14 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-16 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-17 | 18 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-22 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -86,7 +86,7 @@ Reported by **155** distros on [repology.org](https://repology.org/project/hledg
 | Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
 | Arch | `1.52.4` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.52.4` | ✅ latest |
 | Fedora rawhide | `1.43.2` | ⚠️ outdated |
 | Nix unstable | `1.52` | ⚠️ outdated |
 | Void | `1.52.4` | ✅ latest |
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:33:28Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:35:44Z._
