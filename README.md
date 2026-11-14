@@ -14,11 +14,11 @@ x install hledger
 
 ## Code insight
 
-Total: **65,999** lines of code across **263** files in the top 5 languages.
+Total: **66,000** lines of code across **263** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 44,884 | 20,590 | 6,894 | 195 |
+| Haskell | 44,885 | 20,592 | 6,894 | 195 |
 | Css | 7,377 | 247 | 103 | 6 |
 | Bash | 2,951 | 485 | 303 | 28 |
 | JavaScript | 2,067 | 496 | 237 | 14 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.6` (2026-09-10)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-14
 - **Assets in release**: 4
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 834 · **Open PRs**: 3 · **Closed issues**: 1410 · **Open issues**: 311 · **Commits**: 16939
+- **Releases**: 64 · **Merged PRs**: 834 · **Open PRs**: 3 · **Closed issues**: 1410 · **Open issues**: 311 · **Commits**: 16942
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-14 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-15 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-17 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-18 | 18 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-23 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-15 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-15 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-16 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-18 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-19 | 18 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-24 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -102,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:59:10Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:51:37Z._
