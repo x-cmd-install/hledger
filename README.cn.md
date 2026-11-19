@@ -14,11 +14,11 @@ x install hledger
 
 ## 代码洞察
 
-合计: **66,326** 行代码（覆盖前 5 种语言、共 **264** 个文件）。
+合计: **66,374** 行代码（覆盖前 5 种语言、共 **264** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Haskell | 45,210 | 20,762 | 6,925 | 196 |
+| Haskell | 45,262 | 20,782 | 6,928 | 196 |
 | Css | 7,377 | 247 | 103 | 6 |
 | Bash | 2,951 | 485 | 303 | 28 |
 | JavaScript | 2,067 | 496 | 237 | 14 |
@@ -26,11 +26,11 @@ x install hledger
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.8 / 10**
+总评分: **4.6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/28 approved changesets -- score normalized to 2
+- **Code-Review** (0/10) — Found 0/27 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ x install hledger
 ## 发布
 
 - **最新版本**: `1.99.6` (2026-09-10)
-- **最近提交**: 2026-11-16
+- **最近提交**: 2026-11-18
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 4,824 · **Fork**: 425 · **开放 issue**: 1,727 · **贡献者**: 185
+- **Star**: 4,830 · **Fork**: 426 · **开放 issue**: 1,727 · **贡献者**: 185
 
 ## 累计统计
 
-- **发布数**: 64 · **已合并 PR**: 836 · **开放 PR**: 0 · **已关闭 issue**: 1415 · **开放 issue**: 312 · **提交数**: 16977
+- **发布数**: 64 · **已合并 PR**: 837 · **开放 PR**: 0 · **已关闭 issue**: 1415 · **开放 issue**: 312 · **提交数**: 16994
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-22 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-27 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-21 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-23 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-24 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-29 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -74,6 +74,25 @@ x install hledger
 | [hledger-mac-x64.tar.gz](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-mac-x64.tar.gz) | 17.0 MiB | `native/unknown` |
 | [hledger-windows-x64.zip](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-windows-x64.zip) | 49.4 MiB | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/hledger) 上共有 **156** 个发行版报告此项目。**30** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.52.1` | ⚠️ outdated |
+| Debian 14 | `1.52.1` | ⚠️ outdated |
+| Debian 13 | `1.32.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
+| Arch | `1.52.4` | ✅ latest |
+| Homebrew | `1.52.4` | ✅ latest |
+| Fedora rawhide | `1.43.2` | ⚠️ outdated |
+| Nix unstable | `1.52` | ⚠️ outdated |
+| Void | `1.52.4` | ✅ latest |
+| Alpine edge | `1.52.4` | ✅ latest |
+| openSUSE Tumbleweed | `1.52.4` | ✅ latest |
+
 ## 改进这些数据
 
 hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `hledger` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -83,4 +102,4 @@ hledger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:53:17Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T08:18:39Z._

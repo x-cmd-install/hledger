@@ -14,11 +14,11 @@ x install hledger
 
 ## Code insight
 
-Total: **66,326** lines of code across **264** files in the top 5 languages.
+Total: **66,374** lines of code across **264** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Haskell | 45,210 | 20,762 | 6,925 | 196 |
+| Haskell | 45,262 | 20,782 | 6,928 | 196 |
 | Css | 7,377 | 247 | 103 | 6 |
 | Bash | 2,951 | 485 | 303 | 28 |
 | JavaScript | 2,067 | 496 | 237 | 14 |
@@ -26,11 +26,11 @@ Total: **66,326** lines of code across **264** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.8 / 10**
+Overall score: **4.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/28 approved changesets -- score normalized to 2
+- **Code-Review** (0/10) — Found 0/27 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.99.6` (2026-09-10)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-18
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 4,824 · **Forks**: 425 · **Open issues**: 1,727 · **Contributors**: 185
+- **Stars**: 4,830 · **Forks**: 426 · **Open issues**: 1,727 · **Contributors**: 185
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 836 · **Open PRs**: 0 · **Closed issues**: 1415 · **Open issues**: 312 · **Commits**: 16977
+- **Releases**: 64 · **Merged PRs**: 837 · **Open PRs**: 0 · **Closed issues**: 1415 · **Open issues**: 312 · **Commits**: 16994
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 3 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-19 | 7 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-21 | 8 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-22 | 17 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-27 | 28 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-20 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 3 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-21 | 7 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-23 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-24 | 17 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-29 | 28 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -74,6 +74,25 @@ Lowest-scoring checks:
 | [hledger-mac-x64.tar.gz](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-mac-x64.tar.gz) | 17.0 MiB | `native/unknown` |
 | [hledger-windows-x64.zip](https://github.com/simonmichael/hledger/releases/download/1.52.4/hledger-windows-x64.zip) | 49.4 MiB | `native/win/x64` |
 
+## Distribution status
+
+Reported by **156** distros on [repology.org](https://repology.org/project/hledger). **30** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.52.1` | ⚠️ outdated |
+| Debian 14 | `1.52.1` | ⚠️ outdated |
+| Debian 13 | `1.32.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.50.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.30.1` | ⚠️ outdated |
+| Arch | `1.52.4` | ✅ latest |
+| Homebrew | `1.52.4` | ✅ latest |
+| Fedora rawhide | `1.43.2` | ⚠️ outdated |
+| Nix unstable | `1.52` | ⚠️ outdated |
+| Void | `1.52.4` | ✅ latest |
+| Alpine edge | `1.52.4` | ✅ latest |
+| openSUSE Tumbleweed | `1.52.4` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `hledger` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -83,4 +102,4 @@ Install metadata for hledger lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:53:16Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:18:37Z._
